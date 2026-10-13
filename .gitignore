@@ -1,0 +1,8 @@
+# 金鑰與環境變數(見 docs/architecture.md 第 8 節)
+.env
+.env.*
+!.env.example
+
+# 相依套件與打包產物
+node_modules/
+dist/
