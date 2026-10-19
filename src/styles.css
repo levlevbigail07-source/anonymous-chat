@@ -601,3 +601,61 @@ button:disabled {
   border: 1px solid var(--line);
   border-radius: 6px;
 }
+
+/* 🌙 Dreamy pastel chatroom */
+:root {
+  --bg: #fff5fb;
+  --surface: #fffafd;
+  --line: #f2d8ec;
+  --text: #513c5e;
+  --muted: #a18aaa;
+  --accent: #b78be8;
+  --on-accent: #ffffff;
+  --bubble: #fff0f8;
+}
+
+/* Soft dreamy background */
+body {
+  background:
+    radial-gradient(ellipse at top left, #fce4f4 0%, transparent 45%),
+    radial-gradient(ellipse at bottom right, #e9e2ff 0%, transparent 45%),
+    #fff8fc;
+  color: #513c5e;
+}
+
+/* Cute rounded cards */
+header, main, aside, section {
+  border-color: #f2d8ec;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  filter: brightness(1.04);
+  transform: translateY(-1px);
+}
+
+/* Soft pastel message bubbles */
+.message, .chat-message {
+  border-radius: 18px;
+}
+
+/* Lavender focus glow */
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #c5a0f0;
+  box-shadow: 0 0 0 3px #eadcff;
+}
+
+/* Gentle scrollbar */
+* {
+  scrollbar-color: #e5c8ef transparent;
+}
+
+/* Smooth transitions */
+body, button, input, textarea {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
