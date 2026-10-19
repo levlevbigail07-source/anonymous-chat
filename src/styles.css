@@ -659,3 +659,67 @@ body, button, input, textarea {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
+/* 🎀 COQUETTE ANONYMOUS CHATROOM 🎀 */
+
+body {
+  background:
+    radial-gradient(ellipse at top left, #ffe4ef 0%, transparent 45%),
+    linear-gradient(135deg, #fff7fa, #ffeaf2, #fff0f5) !important;
+}
+
+/* 🎀 Floating coquette decorations */
+body::before {
+  content: "🎀";
+  position: fixed;
+  top: 95px;
+  left: 18px;
+  font-size: 38px;
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 10;
+}
+
+body::after {
+  content: "♡  ✧  ♡";
+  position: fixed;
+  right: 22px;
+  bottom: 95px;
+  color: #e88eaf;
+  font-size: 25px;
+  letter-spacing: 5px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* 💌 Soft pink message bubbles */
+.message,
+.chat-message {
+  border: 1px solid #f7c8da !important;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 12px #e9a8c51c;
+}
+
+/* 🩰 Cute rounded input */
+input,
+textarea {
+  border-color: #efb6cf !important;
+  border-radius: 24px !important;
+  background-color: #fffafd !important;
+}
+
+/* ✨ Pink buttons */
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  filter: brightness(1.04);
+  transform: translateY(-1px);
+}
+
+/* ♡ Soft pink scrollbar */
+* {
+  scrollbar-color: #edb4ce transparent;
+}
+
+
